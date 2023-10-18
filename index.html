@@ -1,216 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- Meta tag for Character Encoding -->
-    <meta charset="UTF-8" />
-    
-    <!-- Meta tag for viewport width -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Title Website -->
-    <title>GoTrav</title>
-
-    <!-- Favicon Web -->
-    <link rel="shortcut icon" href="./src/assets/logo.svg" type="image/x-icon" />
-
-    <!-- Box Icons -->
+    <title>Karel Trisnanto Utomo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
+      rel="shortcut icon"
+      href="./src/assets/photo.png"
+      type="image/x-icon"
     />
-
-    <!-- Meta Tag Open Graph -->
-    <meta property="og:title" content="GoTrav" />
-    <meta
-      property="og:description"
-      content="Website penyedia layanan booking tempat penginapan dan juga akomodasi untuk traveling dan jalan-jalan."
-    />
-    <meta
-      property="og:image"
-      itemprop="image"
-      content="https://karmint26.github.io/go-trav/src/assets/preview.png"
-    />
-    <meta property="og:url" content="https://karmint26.github.io/go-trav" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="500" />
-    <meta property="og:image:height" content="500" />
-
-    <style>
-      table {
-        border-collapse: collapse;
-        width: 600px;
-        border: 1px solid #000;
-        text-align: center;
-        padding: 2rem;
-        margin: 5rem auto;
-      }
-      table thead {
-        background-color: skyblue;
-      }
-      form {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 5rem auto;
-      }
-      form .field {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-      }
-      form .field input,
-      form .field textarea,
-      form .field select {
-        padding: 1rem 2rem;
-        border-radius: 1rem;
-        border: .5px solid gray;
-        outline: none;
-        align-self: flex-start;
-      }
-      form button {
-        padding: 1rem 2rem;
-        border-radius: 1rem;
-        color: #fff;
-        background-color: rgb(168, 0, 168);
-        border: none;
-        cursor: pointer;
-      }
-      form
-    </style>
   </head>
   <body>
-        <!-- Header Start -->
-    <header id="#header">
-        <nav
-          class="navbar"
-          style="
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-          "
+    <header>
+      <img src="./src/assets/photo.png" alt="Karel Trisnanto Utomo" />
+      <h1>Karel Trisnanto Utomo</h1>
+      <nav>
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#pengalaman">Pengalaman</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya merupakan Seorang Front End Developer yang sudah mempunyai
+        pengalaman selama 1 tahun dengan mengeksplorasi terkait teknologi IT
+        yang sedang berkembang sekarang. Saya juga bergabung dengan komunitas IT
+        di SMKDEV Community dan mengerjakan banyak project bareng.
+      </p>
+    </section>
+
+    <section id="pengalaman">
+      <h2>Pengalaman</h2>
+      <p>
+        Pengalaman saya adalah 1 Tahun di dunia pemrograman dengan mempelajari
+        JS, Python, Java, C++. Saya juga mempelajari banyak framework seperti
+        NextJS dan ReactJS. Saya juga mempelajari matplotlib, numpy, pandas.
+        Saya juga mengikuti lomba web dev IEC 2023 dan memperoleh juara 1.
+      </p>
+    </section>
+
+    <section id="portofolio">
+      <h2>Portofolio</h2>
+      Project saya sebagai berikut : <br />
+      1.
+      <a href="https://karmint26.github.io/plag-ai" target="_blank">Plag AI</a>
+      <br />
+      2.
+      <a href="https://vue-meals-site.vercel.app/" target="_blank">Vue Meals</a>
+      <br />
+      3.
+      <a href="https://travel-chatbot-smkdev.netlify.app/" target="_blank"
+        >Travel Chatbot</a
+      >
+      <br />
+      4.
+      <a href="https://summarizer-openai.vercel.app/" target="_blank"
+        >Summarizer Open AI</a
+      >
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <p>Email: kareltrisnanto26@example.com</p>
+      <p>Telepon: +62 895-4229-93335</p>
+      <p>
+        Media Sosial:
+        <a
+          href="https://www.linkedin.com/in/karel-trisnanto-utomo-8564ba259/"
+          target="_blank"
+          >LinkedIn</a
         >
-          <div
-            class="nav-brand"
-            style="display: flex; justify-content: center; align-items: center"
-          >
-            <img
-              src="./src/assets/logo.svg"
-              alt="logo"
-              width="100"
-              height="100"
-            />
-            <h1>
-              <b>Go<span>Trav</span></b>
-            </h1>
-          </div>
-          <ul
-            style="
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              gap: 1rem;
-            "
-          >
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Service</a></li>
-            <li><a href="#destinations">Destination</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <!-- Header End -->
-  
-      <!-- Hero Section Start -->
-      <section id="hero">
-        <div class="hero-img"></div>
-        <div class="content">
-          <h1>Welcome to GoTrav</h1>
-          <p>For your solution to traveling around the world</p>
-        </div>
-      </section>
-      <!-- Hero Section End -->
+      </p>
+      <p>
+        Media Sosial:
+        <a href="https://github.com/KarMint26/" target="_blank">Github</a>
+      </p>
+    </section>
 
-      <!-- Table Section Start -->
-      <table border="1" cellpadding="10" cellspacing="0">
-        <thead>
-          <td>No</td>
-          <td>Kota</td>
-          <td>Negara</td>
-          <td>Biaya</td>
-          <td>Wisata</td>
-        </thead>
-        <tr>
-          <td>1</td>
-          <td>Paris</td>
-          <td>Prancis</td>
-          <td colspan="2" rowspan="2">$25.000</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Bali</td>
-          <td>Indonesia</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Roma</td>
-          <td>Italia</td>
-          <td>$35.000</td>
-          <td>Colosseum</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Beijing</td>
-          <td>China</td>
-          <td>$53.000</td>
-          <td>Tembok China</td>
-        </tr>
-      </table>
-      <!-- Table Section End -->
-
-      <!-- Form Section Start -->
-      <form action="/index.html" method="get">
-        <div class="field">
-          <label for="username">Your Name</label>
-          <input type="text" name="username" id="username" placeholder="John Doe">
-        </div>
-        <div class="field">
-          <label for="select-field">choose country</label>
-          <select name="select-field" id="select-field">
-            <option value="China">China</option>
-            <option value="France">France</option>
-            <option value="Indonesia">Indonesia</option>
-            <option value="Netherland">Netherland</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="text-area">Your Message</label>
-          <textarea name="your-message" id="text-area" cols="30" rows="10" placeholder="Message"></textarea>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
-      <!-- Form Section End -->
-  
-      <!-- About Section Start -->
-      <section id="about"></section>
-      <!-- About Section End -->
-  
-      <!-- Services Section Start -->
-      <section id="services"></section>
-      <!-- Services Section End -->
-  
-      <!-- Destinations Section Start -->
-      <section id="destinations"></section>
-      <!-- Destinations Section end -->
-  
-      <!-- Contact Section Start -->
-      <section id="contact"></section>
-      <!-- Contact Section End -->
-  
-      <!-- Footer Start -->
-      <footer id="footer"></footer>
-      <!-- Footer End -->  
+    <footer>
+      <p>&copy; 2023 Karel Trisnanto Utomo.</p>
+    </footer>
   </body>
 </html>
